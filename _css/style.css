@@ -1,0 +1,65 @@
+*{font-family: Verdana, Geneva, Tahoma, sans-serif; margin: 0; padding: 0;}
+/* TOP HEADER ***----------------------------------------------------------------------------------- */
+header h1,  header h2 {color: rgb(40, 40, 216); text-align: center;letter-spacing:  4px;}
+
+
+.limpa {clear: both;}
+/* .clicked{width: 100%; height: auto;} */
+
+header {margin-bottom: 50px;}
+/*-end HEADER-----------------------------------------------------------------------------------------*/
+.placar{
+    background-color: rgba(10,10,233, 0.9);
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    
+}
+
+.placar h4 {
+color: aliceblue;
+display: inline;
+margin:0%;
+}
+.placar  h3 {
+    font-size: large;
+    font-weight: 800;
+    color: aliceblue;
+    margin: 0%;
+}
+#X, #O {    
+    display: inline;
+    margin:1%;
+    
+    }
+
+
+.corpo{
+    width:603px;
+    height:600px;
+    border:solid 1px;
+    margin: 2% auto;
+    background-color:  rgba(10,10,233, 0.7);
+}
+ 
+.dire, .centro, .esq {
+    height:200px;
+    border-bottom:solid 1px white;
+}
+ 
+.clicked{
+    width:200px;
+    height:100%;
+    border-right:solid 1px white;
+    background-size: cover;
+    float:left;
+}
+
+footer{
+    width:100%;
+    padding: 30px 0;
+    background-color:  rgba(10,10,233, 0.9);
+    color: cornsilk;
+    text-align: center;
+    
+}

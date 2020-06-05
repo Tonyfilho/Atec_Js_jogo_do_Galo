@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="_css/style.css">
+    
+    <title>Jogo do Galor</title>
+</head>
+<body>
+    <header>
+        <h1>JOGO DO GALO </h1>
+    <div class="placar">
+        <h4 >Jogador X = <h3 id="X"> 0</h3></h4>
+        <h4 >Jogador O =<h3 id="O"> 0</h3> </h4>
+
+    </div>
+
+ </header> <!--/*fazendo zoom na imagem*/  -->
+ <div class="corpo">
+     <!-- ----------------------------------------------------TOP da DIV DIR -->
+     <div class="dire">
+         <div class="clicked div1" data-linha="0" data-coluna="0"></div>
+         <div class="clicked div2" data-linha="1" data-coluna="0"></div>
+         <div class="clicked div3" data-linha="2" data-coluna="0"></div>
+     </div>
+      <!-- ****************************************************END da DIV DIR -->
+      <!-- ----------------------------------------------------TOP da DIV CENTRO -->
+      <div class="centro">
+        <div class="clicked div4" data-linha="0" data-coluna="1"></div>
+        <div class="clicked div5" data-linha="1" data-coluna="1"></div>
+        <div class="clicked div6" data-linha="2" data-coluna="1"></div>
+    </div>
+    <!-- ****************************************************END da DIV CENTRO -->
+    <!-- ----------------------------------------------------TOP da DIV ESQ -->
+    <div class="esq">
+        <div class="clicked div7" data-linha="0" data-coluna="2"></div>
+        <div class="clicked div8" data-linha="1" data-coluna="2"></div>
+        <div class="clicked div9" data-linha="2" data-coluna="2"></div>
+    </div>
+      <!-- ****************************************************END da DIV ESQ -->
+
+     <div class="limpa"></div>
+
+
+
+
+</div>
+<footer id="rodape">
+ ATEC 2019   Quase 2020
+
+</footer>
+    
+
+
+    <script src="_js/jogo.js"></script>
+</body>
+</html>
